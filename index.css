@@ -4,7 +4,10 @@ body {
     margin: 0px;
     color: thistle;
 }
-
+/* .header{
+    position: fixed;
+    width: 100%;
+} */
 .left{
     position: absolute;
     display: inline-block;
@@ -64,29 +67,38 @@ ul {
     /* padding: 35px 35px; */
 }
 
-.nevbar li a:hover,
+a:visited{
+    color: rgb(50, 130, 221);
+}
+
+.nevbar li a:hover{
+    text-decoration: none;
+    color: rgba(71, 112, 224, 0.582);
+}
 .nevbar li a.active {
     text-decoration: underline;
-    color: gray;
-
+    color: rgba(62, 105, 245, 0.712);
+    
 }
 
 .search{
+    align-items: center;
+    justify-content: center;
     position: absolute;
     display: inline-block;
-    right: 25px;
-    top: 50px;
+    right: 50px;
+    top: 51px;
 }
 
-.fa-search{
+/* .fa-search{
     color: rgb(0, 0, 0);
-}
+} */
 
 .btn{
     border: 2px whitesmoke;
     border-radius: 5px;
     margin: 5px 10px 5px 10px;
-    padding: 5px 110px 5px 110px;
+    padding: 5px;
     cursor: pointer;
 }
 
