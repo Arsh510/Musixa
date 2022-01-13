@@ -4,31 +4,19 @@ body {
     margin: 0px;
     color: thistle;
 }
-/* .header{
-    position: fixed;
-    width: 100%;
-} */
+
 .left{
     position: absolute;
-    display: inline-block;
-    left: 16px;
-    top: 40px;
-    font-size: 20px;
-    color: white;
-    margin: 0 25px 0 25px;
-    /* padding: 0 0 0 0; */
+    left: 17px;
+    top: 35px;
+    margin: 0 15px 0 15px;
 }
 
 .left img {
-    width: 45px;
-    filter: invert(100%);
+    width: 66px;
+    /* filter: invert(100%); */
     text-align: center;
-    margin: 0px 22px 0 22px;
-}
-
-.logo{
-    padding: 0px 21px 0px 21px;
-    /* margin: 0px 0px 0px 0px; */
+    margin: 0px 10px 0 10px;
 }
 
 .mid {
@@ -67,16 +55,16 @@ ul {
     /* padding: 35px 35px; */
 }
 
-a:visited{
+/* a:visited{
     color: rgb(50, 130, 221);
-}
+} */
 
 .nevbar li a:hover{
     text-decoration: none;
     color: rgba(71, 112, 224, 0.582);
 }
 .nevbar li a.active {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgba(62, 105, 245, 0.712);
     
 }
@@ -223,3 +211,4 @@ h1{
     margin: 0px 10px 0px 10px;
     padding: 0px 10px 0px 10px;
 }
+
