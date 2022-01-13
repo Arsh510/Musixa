@@ -17,8 +17,7 @@
 <body>
     <header class="header">
         <div class="left">
-            <img src="img/logo.jpg" alt="">
-            <div class="logo">Music</div>
+            <img src="img/Group 30.png" alt="">
         </div>
 
         <div class="mid">
@@ -49,10 +48,16 @@
 
     <div class="boxes">
         <div class="box">
-            <img src="img/img2.jpg" alt="">
+            <img src="img/img2.jpg" onClick="document.getElementById('audio_play').play(); return false;" />
+            <audio id="audio_play">
+                <source src="img/Ignite - Alan Walker.mp3" type="audio/ogg" />
+            </audio>
         </div>
         <div class="box">
-            <img src="img/img2.jpg" alt="">
+            <img src="img/img2.jpg" onClick="document.getElementById('audio_play').play();" />
+            <audio id="audio_play">
+                <source src="img/Unstoppable - Sia ! English Song.mp3" type="audio/ogg" />
+            </audio>
         </div>
         <div class="box">
             <img src="img/img2.jpg" alt="">
@@ -145,6 +150,16 @@
                     aria-hidden="true"></i></i></a>
         </div>
     </footer>
+
+    <script>
+        var myMusic = document.getElementById("music");
+        function play() {
+            myMusic.play();
+        }
+        function pause() {
+            myMusic.pause();
+        }
+    </script>
 </body>
 
 </html>
