@@ -7,16 +7,16 @@ body {
 
 .left{
     position: absolute;
-    left: 17px;
+    left: 15px;
     top: 35px;
-    margin: 0 15px 0 15px;
+/*     margin: 0 15px 0 15px; */
 }
 
 .left img {
-    width: 66px;
+    width: 135px;
     /* filter: invert(100%); */
     text-align: center;
-    margin: 0px 10px 0 10px;
+    margin: 20px 0px 0px 0px;
 }
 
 .mid {
@@ -29,8 +29,8 @@ body {
 ul {
     list-style-type: none;
     display: inline-block;
-    margin: 11px;
-    padding: 0;
+    margin: 10px 60px;
+    padding: 0px;
 }
 
 .navbar {
@@ -41,8 +41,8 @@ ul {
 .nevbar li {
     display: inline-block;
     list-style: none;
-    margin: 25px;
-    padding: 15px;
+    margin: 25px 10px;
+    padding: 15px 5px;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
