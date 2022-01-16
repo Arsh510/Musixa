@@ -46,27 +46,30 @@ ul {
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    color: #c377ff;
+    color: #50098a;
 }
 .nevbar li a {
-    color: white;
+    color: #50098a;
     font-weight: bolder;
     text-decoration: none;
     /* padding: 35px 35px; */
 }
 
-/* a:visited{
-    color: rgb(50, 130, 221);
-} */
+
 
 .nevbar li a:hover{
-    text-decoration: none;
-    color: rgba(71, 112, 224, 0.582);
+    text-decoration: blink;
+    color: #ffffff;
+    font-size: 27px;
 }
 .nevbar li a.active {
     text-decoration: none;
-    color: rgba(62, 105, 245, 0.712);
+    color: #9e92a8;
+    /* font-size: 30px; */
     
+}
+.nevbar li a::before{
+    font-size: 25px;
 }
 
 .search{
@@ -74,20 +77,47 @@ ul {
     justify-content: center;
     position: absolute;
     display: inline-block;
-    right: 50px;
-    top: 51px;
+    right: 264px;
+    top: 42px;
+    color :#000000
 }
 
-/* .fa-search{
-    color: rgb(0, 0, 0);
-} */
-
-.btn{
-    border: 2px whitesmoke;
-    border-radius: 5px;
+.input{
+    border: solid #20002c;
+    background: none;
+    border-radius: 50px;
+    width: 50px;
     margin: 5px 10px 5px 10px;
     padding: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: white;
+    transition: .5s;
     cursor: pointer;
+}
+.search:hover input{
+    /* background-color: #50098a; */
+    /* border-radius: 5px; */
+    /* background: none; */
+    width: 350px;
+    background: #50098a;
+    border: 2px solid #20002c;
+    
+    
+}
+.search i{
+    position: relative;
+    right: -33px;
+    top: -27px;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: #50098a;
+    transition: .2s;
+}
+.search:hover i{
+    opacity: 0;
+    z-index:-1;
+
 }
 
 .btn1 {
