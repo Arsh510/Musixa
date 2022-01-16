@@ -31,8 +31,11 @@
         </div>
 
         <div class="search">
-            <a href="#"><i class="fa fa-search"></i></a>
-            <input type="text" class="btn" name="" placeholder="Search">
+            <form name="search">
+                <input type="text" class="input" name="txt" 
+                onmouseout="document.search.txt.value = ''">
+            </form>
+            <i class="fa fa-search"></i>
         </div>
     </header>
 
