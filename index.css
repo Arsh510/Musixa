@@ -9,7 +9,7 @@ body {
     position: absolute;
     left: 15px;
     top: 35px;
-/*     margin: 0 15px 0 15px; */
+    /* margin: 0 15px 0 15px; */
 }
 
 .left img {
@@ -29,8 +29,8 @@ body {
 ul {
     list-style-type: none;
     display: inline-block;
-    margin: 10px 60px;
-    padding: 0px;
+    margin: 11px;
+    padding: 0;
 }
 
 .navbar {
@@ -41,8 +41,8 @@ ul {
 .nevbar li {
     display: inline-block;
     list-style: none;
-    margin: 25px 10px;
-    padding: 15px 5px;
+    margin: 25px;
+    padding: 15px;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -54,8 +54,6 @@ ul {
     text-decoration: none;
     /* padding: 35px 35px; */
 }
-
-
 
 .nevbar li a:hover{
     text-decoration: blink;
@@ -77,8 +75,8 @@ ul {
     justify-content: center;
     position: absolute;
     display: inline-block;
-    right: 264px;
-    top: 42px;
+    right: 55px;
+    top: 45px;
     color :#000000
 }
 
@@ -117,7 +115,11 @@ ul {
 .search:hover i{
     opacity: 0;
     z-index:-1;
+}
 
+.button{
+    display: flex;
+    flex-direction: row;
 }
 
 .btn1 {

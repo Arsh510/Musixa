@@ -29,13 +29,6 @@ body {
     border-radius: 10px;
 }
 
-.pera{body {
-    background-color: #000000;
-    padding: 0px;
-    margin: 0px;
-    color: thistle;
-}
-
 .boxes{
     display: flex;
     flex-direction: row;
@@ -67,9 +60,4 @@ body {
     margin: 30px;
     padding: 5px;
 }
-    font-size: 40px;
-    font-weight: bold;
-    color: #ffaeff;
-    margin: 30px;
-    padding: 5px;
-}
+
